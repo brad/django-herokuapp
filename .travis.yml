@@ -10,8 +10,8 @@ env:
   - secure: HIyF9PPriBNF5wBFZzbUdy+rYIHvZ03kQDjnatx85yJfqiJtiavQAi7COOIZQsTwVQBBM8f567bEHdABbI/gZRSMID9U++kE1IXeKwW6Mi9C2lhAetV0yunyaPIHRA9FfuNlvOOibHYkEEaBhIh9waembi62sMPRsbiL4n+wOLo=
   - PATH=/tmp/heroku-client/bin:$PATH
   matrix:
-  - DJANGO=django==1.5.4
-  - DJANGO=django==1.6.1
+  - DJANGO=django==1.5.8
+  - DJANGO=django==1.6.5
 install:
 - wget -qO- https://s3.amazonaws.com/assets.heroku.com/heroku-client/heroku-client.tgz
   | tar xz -C /tmp
